@@ -6,7 +6,7 @@ makeCacheMatrix <- function(x = matrix()) {
         inv_mat <- NULL
         set <- function(mat2) {
                 x <<- mat2
-                inv <<- NULL
+                inv_mat <<- NULL
         }
         get <- function() x
         setInv <- function(matrix) inv_mat <<- matrix
